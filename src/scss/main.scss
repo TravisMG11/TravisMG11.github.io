@@ -87,7 +87,8 @@ html, body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color: #363636;
+  background-color: #e9b4f7;
+  // background-color: #363636;
   .overlay-text {
     color: white;
     font-size: 4rem;
@@ -149,7 +150,8 @@ main {
 .left-nav {
   @include font-rhl;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  // background-color: #FFFFFF;
+  background-color: #e9b4f7;
   width: $nav-width;
   height: 100vh;
   display: flex;
@@ -207,7 +209,8 @@ main {
 }
 
 .profile {
-  background-color: #FFFFFF;
+  // background-color: #FFFFFF;
+  background-color: #e9b4f7;
   width: $profile-width-out-of-total-canvas;
   position: relative;
   &.inactive {

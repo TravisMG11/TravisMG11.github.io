@@ -365,7 +365,8 @@ div.details {
   width: 65%;
   float: right;
   font-family: 'RT', Garamond, 'Times New Roman', serif;
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
+  font-size: 25px;
 }
 
 div.details > p {
@@ -391,6 +392,7 @@ ul.skills-list {
 }
 
 ul.skills-list > li {
+  font-size: 25px;
   margin: 5px 0;
 }
 
