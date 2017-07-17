@@ -57,7 +57,7 @@ function toggleProject(project) {
     el.removeAttribute('style');
   });
   projectDescriptions.forEach(el => el.classList.remove(ACTIVE));
-
+  debugger
   newActiveProjectScreenshot.classList.add(ACTIVE);
   newActiveProjectDescription.classList.add(ACTIVE);
 
