@@ -141,6 +141,7 @@ main {
     cursor: default;
     font-size: 75px;
     margin-right: 20px;
+    margin-left: 20px;
     font-weight: bolder;
     text-align: center;
 
@@ -242,12 +243,12 @@ main {
 
 .profile .resume-link-container .resume-link {
   font-family: 'CT-bk', Helvetica, sans-serif;
-  font-size: 1.125rem;
+  font-size: 18px;
   /*color: #E53C1B; */
-  color: blue;
+  color: red;
 }
 .profile .resume-link-container .resume-link img {
-  height: 0.9rem;
+  height: 10px;
   color: blue;
 }
 
