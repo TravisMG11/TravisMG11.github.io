@@ -21,11 +21,11 @@
   /*text-decoration: underline;*/
 }
 
-.external-project-links {
+.external-project-links a {
   color: blue;
 }
 
-.external-project-links:hover {
+.external-project-links a:hover {
   color: #FFFFFF;
 }
 
@@ -126,17 +126,40 @@ main {
   width: 33%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  /*justify-content: flex-end;*/
   position: relative;
-  align-items: center; }
-  .left-nav .name-title {
-    position: absolute;
-    top: 70px;
-    cursor: default;
-    font-size: 1.5rem; }
+  /*align-items: center; */
+}
 
+.left-nav .name-title {
+    /*position: absolute;*/
+    border: 1px solid white;
+    margin-top: 65px;
+    /*top: 40px;*/
+    cursor: default;
+    font-size: 75px;
+    margin-right: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.left-nav-content {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-end;*/
+}
+.nav-list {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .nav-list li {
-  margin: 1.875rem 0; }
+  /*margin: 1.875rem 0; */
+  text-align: right;
+  margin: 20px 40px 0 0;
+}
 
 .project-link {
   font-size: 3rem;
@@ -387,5 +410,6 @@ main {
   /*margin-right: 15px;*/
 }
 .author-link:hover {
-  color: #ff28d4;
+  /*color: #ff28d4;*/
+  color: #7a24b7;
 }
