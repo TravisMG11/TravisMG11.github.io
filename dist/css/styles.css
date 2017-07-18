@@ -205,9 +205,9 @@ main {
   transition: opacity 200ms;
 }
 
-  .project-pane .project-details.visible {
-    opacity: 1;
-  }
+.project-pane .project-details.visible {
+  opacity: 1;
+}
 
 .profile {
   color: white;
@@ -259,17 +259,17 @@ main {
   display: flex;
 }
 
-  .projects .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    z-index: 10;
-    background-color: #000000;
-    opacity: 0.5;
-    transition: opacity 300ms;
-    cursor: pointer;
-    display: none;
-  }
+.projects .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: #000000;
+  opacity: 0.5;
+  transition: opacity 300ms;
+  cursor: pointer;
+  display: none;
+}
 
 .projects .overlay.visible {
   display: block;
@@ -327,12 +327,12 @@ main {
   overflow: hidden;
 }
 
-  .screenshot-outer-container .screenshot-inner-container {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 100%;
-  }
+.screenshot-outer-container .screenshot-inner-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
 
 .project-screenshot {
   position: absolute;
@@ -342,11 +342,11 @@ main {
   transition: transform 1500ms ease-in-out;
 }
 
-  .project-screenshot.animation-complete {
-    bottom: 0; }
-  .project-screenshot.active {
-    display: block;
-  }
+.project-screenshot.animation-complete {
+  bottom: 0; }
+.project-screenshot.active {
+  display: block;
+}
 
 .project-description {
   font-family: 'RT', Garamond, 'Times New Roman', serif;
@@ -355,24 +355,24 @@ main {
   margin: auto;
 }
 
-  .project-description p {
-    font-family: "RHL-it", Helvetica, sans-serif;
-    margin: 0.5rem 0;
-    font-size: 1.25rem;
-    line-height: 2.5rem;
-  }
+.project-description p {
+  font-family: "RHL-it", Helvetica, sans-serif;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
 
-  .project-description.active {
-    display: block;
-  }
+.project-description.active {
+  display: block;
+}
 
 .external-project-links {
-  margin-top: 1.25rem;
-  font-size: 1.3rem; }
-  .external-project-links a {
-    font-weight: bold;
-    margin-right: 1rem;
-  }
+margin-top: 1.25rem;
+font-size: 1.3rem; }
+.external-project-links a {
+  font-weight: bold;
+  margin-right: 1rem;
+}
 
 .profile-intro {
   margin-top: 50px;
@@ -385,11 +385,12 @@ main {
 .headshot {
   position: absolute;
   display: block;
-  max-width: 50%;
-  max-height: 30rem;
+  /*max-width: 50%;*/
+  max-height: 300px;
+  margin-right: 20px;
   right: 0;
   top: 50%;
-  border: 5px solid black;
+  border: 10px solid black;
   border-radius: 50%;
   transform: translateY(-50%);
 }
@@ -402,7 +403,7 @@ main {
   top: 50%;
   transform: translateY(-50%);
   /*width: 70%;*/
-  width: 50%;
+  width: 60%;
   font-size: 2rem;
 }
 
