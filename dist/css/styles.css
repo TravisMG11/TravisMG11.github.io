@@ -123,7 +123,10 @@ main {
   font-family: 'RHL', Garamond, 'Times New Roman', serif;
   box-sizing: border-box;
   /*background-color: #FFFFFF;*/
-  background-color: #7a24b7;
+  /*background-color: #7a24b7;*/
+  background-image: url("../images/strz.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   width: 33%;
   height: 100vh;
@@ -135,7 +138,7 @@ main {
 
 .left-nav .name-title {
     /*position: absolute;*/
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     margin-top: 65px;
     /*top: 40px;*/
     cursor: default;
