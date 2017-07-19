@@ -124,7 +124,7 @@ main {
   box-sizing: border-box;
   /*background-color: #FFFFFF;*/
   /*background-color: #7a24b7;*/
-  background-image: url("../images/strz.png");
+  background-image: url("https://s3.us-east-2.amazonaws.com/stealpal-pro/strz.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
